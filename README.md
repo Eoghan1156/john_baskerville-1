@@ -12,7 +12,7 @@ John Baskerville
 
 History of Type
 ---------------
-- **[History of Type 1]((https://eleventhirty.github.io/john_baskerville/history1.html)**)**  
+- **[History of Type 1](https://eleventhirty.github.io/john_baskerville/history1.html)**  
   I will walk through this exercise next week once you have all had a chance to play with it yourselves.
 
 
