@@ -6,7 +6,12 @@ John Baskerville
 - **[Baskerville 1](https://eleventhirty.github.io/john_baskerville/baskerville1.html)**   
     This week we kicked things off on our journey into HTML by marking up a plain text file on John Baskerville.
 - **[Baskerville 2](https://eleventhirty.github.io/john_baskerville/baskerville2.html)**
+    We added a simple, unordered, nested list to the end of The Typeface section of our John Baskerville page
 - **[Baskerville 3](https://eleventhirty.github.io/john_baskerville/baskerville3.html)**
+    In version three we added a simple navigation and linked each section through anchors. We also added (absolute) links to external websites and email addresses.
+    
+- **[Baskerville 5 Test](https://eleventhirty.github.io/john_baskerville/baskerville5.html)**
+    
 
 
 
