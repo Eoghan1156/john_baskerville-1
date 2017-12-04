@@ -11,6 +11,8 @@ John Baskerville
     In version three we added a simple navigation and linked each section through anchors. We also added (absolute) links to external websites and email addresses.
     
 - **[Baskerville 5 Test](https://eleventhirty.github.io/john_baskerville/baskerville5.html)**
+
+- **[Baskerville 7](https://eleventhirty.github.io/john_baskerville/baskerville7.html)**
     
 
 
