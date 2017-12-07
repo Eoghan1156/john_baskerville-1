@@ -24,7 +24,7 @@ PART 02 CSS
 + [Version 4](https://eleventhirty.github.io/john_baskerville/baskerville4.html) - Adding first set of CSS rules. 
 
 ### 4th December 2015
-+ [Version 5](https://eleventhirty.github.io/john_baskerville/baskerille5.html) - Added Google fonts and checked for proper punctuation marks plus styled table content.
++ [Version 5](https://eleventhirty.github.io/john_baskerville/baskerville5.html) - Added Google fonts and checked for proper punctuation marks plus styled table content.
 
 <!-- ###11th December 2015
 ### 4th December 2015
