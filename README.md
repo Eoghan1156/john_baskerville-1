@@ -4,32 +4,30 @@ IXD101 Interaction Design Fundamentals
 John Baskerville
 ---------------
 
-###30th October 2017
+### 30th October 2017
++ [Version 1](https://eleventhirty.github.io/john_baskerville/baskerville1.html) - Marked up plain text file as an HTML5 page.
 
-+ [Version 1](https://eleventhirty.github.io/john-baskerville/baskerville1.html) - Marked up plain text file as an HTML5 page.
 
-
-###6th November 2016
-
-+ [Version 2](https://eleventhirty.github.io/john-baskerville/baskerville2.html) - Added a nested, unordered list at the end of **The Typeface** section. 
+### 6th November 2016
++ [Version 2](https://eleventhirty.github.io/john_baskerville/baskerville2.html) - Added a nested, unordered list at the end of **The Typeface** section. 
 Added simple navigation, links and anchors to each section plus included absolute link to my own website and mail link to my UU email address
 
-###13th November 2016
-+ [Version 3](https://eleventhirty.github.io/john-baskerville/baskerville3.html) - Changed nested list to table. Added optimised images to each section.
+### 13th November 2016
++ [Version 3](https://eleventhirty.github.io/john_baskerville/baskerville3.html) - Changed nested list to table. Added optimised images to each section.
 
 ---
 
 PART 02 CSS
 -----------
 
-###27th November 2016
-+ [Version 4](https://eleventhirty.github.io/john-baskerville/baskerville4.html) - Adding first set of CSS rules. 
+### 27th November 2016
++ [Version 4](https://eleventhirty.github.io/john_baskerville/baskerville4.html) - Adding first set of CSS rules. 
 
-###4th December 2015
-+ [Version 5](https://pixelpaper.github.io/john-baskerville/baskerille5.html) - Added Google fonts and checked for proper punctuation marks plus styled table content.
+### 4th December 2015
++ [Version 5](https://eleventhirty.github.io/john_baskerville/baskerille5.html) - Added Google fonts and checked for proper punctuation marks plus styled table content.
 
 <!-- ###11th December 2015
-###4th December 2015
+### 4th December 2015
 + [Version 8](https://pixelpaper.github.io/john-baskerville/baskerille6.html) - Added Google fonts and checked for proper punctuation marks plus styled table content.
 + [CSS Homework Test](https://pixelpaper.github.io/john-baskerville/homework/09/index.html) - Testing first CSS homework page -->
 
@@ -37,10 +35,10 @@ PART 02 CSS
 
 History of Type
 ---------------
-- **[History of Type 1](https://eleventhirty.github.io/john_baskerville/history1.html)**  
++ **[History of Type 1](https://eleventhirty.github.io/john_baskerville/history1.html)**  
   I will walk through this exercise next week once you have all had a chance to play with it yourselves.
   
-- **[History of Type 2](https://eleventhirty.github.io/john_baskerville/history2.html)**  
++ **[History of Type 2](https://eleventhirty.github.io/john_baskerville/history2.html)**  
   This version has anchors and the list included.
   
 <!-- - **[History of Type 3](https://eleventhirty.github.io/john_baskerville/history3.html)**  
