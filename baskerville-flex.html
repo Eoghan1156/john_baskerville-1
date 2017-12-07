@@ -1,22 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="utf-8" />
-	<title>John Baskerville</title>
+    <head>
+    <meta charset="utf-8" />
+    <title>An Introduction to Flexbox</title>
+        
+    <link href='css/style+flex.css' type='text/css' rel='stylesheet' /> 
+
+<style>
+body { 
+    background: #f0f0f0; 
+    color: #333;
+    line-height: 1.8em;
+	}
     
-    <!-- LINK TO CSS -->
-    <link href='css/style.css' type='text/css' rel='stylesheet' /> 
+article {
+    display: flex; 
+    flex-flow: row; 
+	}
+
+section {	
+    width: 8em; 
+	color: 333;
+	margin: 10px;
+	padding: 10px;
+	}
     
-    <!-- LINKING GOOGLE FONTS -->
-  <link rel="stylesheet" href="https://use.typekit.net/xac7cma.css">
+    /* Note we have added classes to each section to allow us to target each individually */
     
     
+.main{ flex: 4 1 ; }
     
+.aside{ flex: 2 1;   
+        border-left: 1px solid #333;
+        padding-left: 3em}
+    
+    
+
+    
+</style>
+        
+<link href='css/media-queries.css' type='text/css' rel='stylesheet' />
+  
 </head>
 
 <body>
-	
-		<header>
+    
+    		<header>
 		    			<nav>
 			    <ul>
                     <li><a href="#the-man">The Man</a></li>
@@ -32,14 +61,13 @@
             
 			<p class="intro"><span class="leader">John Baskerville (1706–1775)</span> was an English businessman whose entrepreneurial attentions included japanning and <em>papier-mâché</em>; he is, however, best remembered as a typographer and printer, not least for the design of the eponymous typeface which, to this very day, bears his name.</p>
         </header>
-        <article id="top">
-            
-<!-- ADDING SECTION ON **THE MAN** -->        
-		
-		<section>
-            
-            
-			<h2 id="the-man">The Man</h2>
+ <article>
+     
+     
+<!--------------------- MAIN CONTENT SECTION --------------------------->
+     
+    <section class="main">
+      <h2 id="the-man">The Man</h2>
             
         <img src="images/baskerville_wide.jpg" alt="A portrait of John Baskerville"
   title="John Baskerville designed his famous serif typeface in 1757." class="z-index"/> 
@@ -52,65 +80,13 @@
 				<p>“Having been an early admirer of the beauty of letters, I became insensibly desirous of contributing to the perfection of them. I formed to myself ideas of greater accuracy than had yet appeared, and had endeavoured to produce a set of types according to what I conceived to be their true proportion.”</p>
 					<cite>—John Baskerville, preface to Milton, 1758 (Anatomy of a Typeface)</cite>
 			</blockquote>
-			
-		</section>
-        
-<!-- ADDING SECTION TITLES **THE TYPEFACE** -->
-		
-		<section>
-			<h2 id="the-typeface">The Typeface</h2>
-            
-            <img src="images/type-specimen.jpg" alt="Specimen of the original Baskerville."/>
-			
-			<p>Baskerville is a Transitional serif typeface designed by John Baskerville in 1757, positioned between the Old Style typefaces of William Caslon, and the modern styles of Giambattista Bodoni and Firmin Didot.</p>
-			
-			<p>The typeface is the result of Baskerville’s intent to improve upon the types of William Caslon. He increased the contrast between thick and thin strokes, making the serifs sharper and more tapered, and shifted the axis of rounded letters to a more vertical position. The curved strokes are more circular in shape, and the characters became more regular. These changes created a greater consistency in size and form.</p>
-			
-			<p>Baskerville’s work was criticized by jealous competitors and soon fell out of favour. Since the 1920s, however, numerous revivals of Baskerville have been released by Linotype, Monotype, and other type foundries. Émigré released a popular revival of the typeface in 1996 called Mrs Eaves, named for Baskerville’s wife, Sarah Eaves. Baskerville represents the peak of Transitional type face design and bridges the gap between Old Style and Modern type design.</p>
-            
-		       <table>
-        <!--The USE OF BORDER IS NOT RECOMMENDED AS IT IS BEING DEPRECIATED ACROSS BROWSERS. IT IS ONLY USED HERE TO SHOW THE BORDER STRUCTURE. THE TABLE WILL BE RESTYLED (PROPERLY) IN CSS AT A LATER STAGE-->
-                <!-- THE APPLICATION OF WIDTH IS NOT RECOMMENDED HERE. IT IS ONLY BEING USED TO HELP CLARIFY THE STRUCTURE OF THE TABLE. -->
-            <caption>Foundries that offer versions of Baskerville:</caption>
-            <tr>
-                <th>Hot type</th>
-                <th>Cold type</th>
-                <th>Digital type</th>
-            </tr>    
-            <tr>
-                <td>Deberny & Peignot</td>
-                <td>Autologic</td>
-                <td>Linotype</td>
-            </tr>  
-                  <tr>
-                <td>Fry Foundry</td>
-                <td>Berthold</td>
-                <td>URW++</td>
-            </tr> 
-                  <tr>
-                <td>American Type Founders</td>
-                <td>Compugraphic</td>
-                <td>Monotype
-            </td>
-            </tr> 
-                  <tr>
-                <td>Linotype</td>
-                <td>Hell AG</td>
-                <td>Bitstream</td>
-            </tr> 
-            <tr>
-                <td>Lanston Monotype</td>
-                <td>Monotype</td>
-                <td></td>
-            </tr> 
-            
-            </table>
+    </section>
+  
+<!-------------------------- FOOTER/ASIDE ------------------------------>   
+     
+    <section class="aside">
 
-		</section>
-        
-<!-- ADDING SECTION TITLES **MRS EAVES** -->
-		
-		<section>
+
 			<h2 id="mrs-eaves">Mrs Eaves</h2>
             
             <img src="images/mrs-eaves.jpg" alt="Specimen of Mrs Eaves font" />
@@ -122,18 +98,16 @@
             <a href="#top" class="anchor">Top</a>
             
 		</section >
-        	</article>
-        
-        
+
+ </article>
+    
+                     <hr>
 		
 		<footer>
-            
-            <hr>
-            
             <small>The content on this page is developed from original copy from Wikipedia and licensed under a Creative Commons Attribution-ShareAlike License, meaning you’re allowed to copy, distribute and transmit the work as long as it is </small>
                 <a href="http://eleventhirty.co" title="View my personal Website" >HTML by Paul McCormack</a>
 			<a href="mailto:p.mccormack.ac.uk" title="Feel free to send me an email">Get in touch</a>
 		</footer>
-
 </body>
 </html>
+
