@@ -41,5 +41,11 @@ History of Type
 + **[History of Type 2](https://eleventhirty.github.io/john_baskerville/history2.html)**  
   This version has anchors and the list included.
   
-<!-- - **[History of Type 3](https://eleventhirty.github.io/john_baskerville/history3.html)**  
-  This version has anchors and the list included. -->
++ **[History of Type 3](https://eleventhirty.github.io/john_baskerville/history3.html)**  
+  This version has anchors and the table included.
+  
++ **[History of Type 4](https://eleventhirty.github.io/john_baskerville/history3.html)**  
+  This version has initial CSS styling added.
+  
++ **[History of Type 5](https://eleventhirty.github.io/john_baskerville/history5.html)**  
+  This version has Google fonts and additional styling included.
