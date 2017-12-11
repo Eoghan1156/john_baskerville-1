@@ -27,8 +27,8 @@ PART 02 CSS
 + [Version 5](https://eleventhirty.github.io/john_baskerville/baskerville5.html) - Added Google fonts and checked for proper punctuation marks plus styled table content.
 
 ### 11th December 2017
-+ [Version 6](https://eleventhirty.github.io/john-baskerville/baskerille6.html) - Added a few additional CSS features.
-+ [CSS Homework Test](https://eleventhirty.github.io/john-baskerville/exercss.html) - 
++ [Version 6](https://eleventhirty.github.io/john_baskerville/baskerville6.html) - Added a few additional CSS features.
++ [CSS Homework Test](https://eleventhirty.github.io/john_baskerville/exercss.html) - 
 
 ---
 
