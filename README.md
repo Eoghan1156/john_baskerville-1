@@ -49,4 +49,9 @@ History of Type
 + **[History of Type 5](https://eleventhirty.github.io/john_baskerville/history5.html)**  
   This version has Google fonts and additional styling included.
   
+Flexbox
+-------
+- [Flexbox Test 1](https://eleventhirty.github.io/baskerville_flex.html)
+- [Flexbox Test 2](https://eleventhirty.github.io/baskerville_flex2.html)
+  
   
