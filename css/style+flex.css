@@ -39,6 +39,8 @@ blockquote p {
     hanging-punctuation: first;
     text-indent: -0.5em; /* Change according to your font */
             }
+
+.intro {font-size: 1.25em}
 .kern { letter-spacing: -3px} 
 
 header h2 {

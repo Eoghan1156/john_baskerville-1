@@ -4,18 +4,27 @@
     <meta charset="utf-8" />
     <title>An Introduction to Flexbox</title>
         
-    <link href='css/style+flex.css' type='text/css' rel='stylesheet' /> 
+    <link href='css/style.css' type='text/css' rel='stylesheet' /> 
+        
+ <!--------------------- LINK TO GOOGLE FONT --------------------->
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
+    
+
+    <!-------------------- ADD VIEWPORT SIZE ---------------->
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <style>
 body { 
     background: #f0f0f0; 
     color: #333;
     line-height: 1.8em;
+    max-width: 900px
 	}
     
 article {
     display: flex; 
-    flex-flow: row; 
+
 	}
 
 section {	
@@ -28,9 +37,9 @@ section {
     /* Note we have added classes to each section to allow us to target each individually */
     
     
-.main{ flex: 4 1 ; }
+.main{ flex: 3; }
     
-.aside{ flex: 2 1;   
+.aside{ flex: 1;   
         border-left: 1px solid #333;
         padding-left: 3em}
     
@@ -61,6 +70,8 @@ section {
             
 			<p class="intro"><span class="leader">John Baskerville (1706–1775)</span> was an English businessman whose entrepreneurial attentions included japanning and <em>papier-mâché</em>; he is, however, best remembered as a typographer and printer, not least for the design of the eponymous typeface which, to this very day, bears his name.</p>
         </header>
+    
+    <hr>
  <article>
      
      
@@ -80,6 +91,17 @@ section {
 				<p>“Having been an early admirer of the beauty of letters, I became insensibly desirous of contributing to the perfection of them. I formed to myself ideas of greater accuracy than had yet appeared, and had endeavoured to produce a set of types according to what I conceived to be their true proportion.”</p>
 					<cite>—John Baskerville, preface to Milton, 1758 (Anatomy of a Typeface)</cite>
 			</blockquote>
+        
+        
+			<h2 id="the-typeface">The Typeface</h2>
+            
+            <img src="images/type-specimen.jpg" alt="Specimen of the original Baskerville."/>
+			
+			<p>Baskerville is a Transitional serif typeface designed by John Baskerville in 1757, positioned between the Old Style typefaces of William Caslon, and the modern styles of Giambattista Bodoni and Firmin Didot.</p>
+			
+			<p>The typeface is the result of Baskerville’s intent to improve upon the types of William Caslon. He increased the contrast between thick and thin strokes, making the serifs sharper and more tapered, and shifted the axis of rounded letters to a more vertical position. The curved strokes are more circular in shape, and the characters became more regular. These changes created a greater consistency in size and form.</p>
+			
+			<p>Baskerville’s work was criticized by jealous competitors and soon fell out of favour. Since the 1920s, however, numerous revivals of Baskerville have been released by Linotype, Monotype, and other type foundries. Émigré released a popular revival of the typeface in 1996 called Mrs Eaves, named for Baskerville’s wife, Sarah Eaves. Baskerville represents the peak of Transitional type face design and bridges the gap between Old Style and Modern type design.</p>
     </section>
   
 <!-------------------------- FOOTER/ASIDE ------------------------------>   
