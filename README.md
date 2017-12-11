@@ -51,7 +51,7 @@ History of Type
   
 Flexbox
 -------
-- [Flexbox Test 1](https://eleventhirty.github.io/baskerville_flex.html)
-- [Flexbox Test 2](https://eleventhirty.github.io/baskerville_flex2.html)
+- [Flexbox Test 1](https://eleventhirty.github.io/john_baskerville/baskerville_flex.html)
+- [Flexbox Test 2](https://eleventhirty.github.io/john_baskerville/baskerville_flex2.html)
   
   
