@@ -20,16 +20,15 @@ Added simple navigation, links and anchors to each section plus included absolut
 PART 02 CSS
 -----------
 
-### 27th November 2016
+### 27th November 2017
 + [Version 4](https://eleventhirty.github.io/john_baskerville/baskerville4.html) - Adding first set of CSS rules. 
 
-### 4th December 2015
+### 4th December 2017
 + [Version 5](https://eleventhirty.github.io/john_baskerville/baskerville5.html) - Added Google fonts and checked for proper punctuation marks plus styled table content.
 
-<!-- ###11th December 2015
-### 4th December 2015
-+ [Version 8](https://pixelpaper.github.io/john-baskerville/baskerille6.html) - Added Google fonts and checked for proper punctuation marks plus styled table content.
-+ [CSS Homework Test](https://pixelpaper.github.io/john-baskerville/homework/09/index.html) - Testing first CSS homework page -->
+### 11th December 2017
++ [Version 6](https://eleventhirty.github.io/john-baskerville/baskerille6.html) - Added a few additional CSS features.
++ [CSS Homework Test](https://eleventhirty.github.io/john-baskerville/exercss.html) - 
 
 ---
 
@@ -49,3 +48,5 @@ History of Type
   
 + **[History of Type 5](https://eleventhirty.github.io/john_baskerville/history5.html)**  
   This version has Google fonts and additional styling included.
+  
+  
